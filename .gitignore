@@ -1,0 +1,40 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# DataGrip / JetBrains
+.idea/
+*.iml
+
+# Datos originales
+Data/Bronze/
+
+# Resultados finales derivados
+Data/Oro/
+
+# No subir Excel ni CSV
+*.xlsx
+*.xls
+*.csv
+
+# Permitir Parquet en Plata
+!Data/Plata/
+!Data/Plata/**/*.parquet
+
+# Temporales
+~$*
+*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db
